@@ -18,7 +18,7 @@ def fetch_data():
     db_connection = mysql.connector.connect(
         host="localhost",
         user="Dario",
-        password="Xxxxxxx",   # hier dein PW eingeben
+        password="Xxxxxxxx",   # hier dein PW eingeben
         database="database_homes"
     )
 
