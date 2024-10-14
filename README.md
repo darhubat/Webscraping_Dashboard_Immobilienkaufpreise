@@ -33,7 +33,7 @@ können:
 * `scrapy`
 * `MySQL-Workbench`
 
-Mit folgender Python-Datei [`scout_final.py`](app.py "scout_final.py") kann der Webscraper gestartet werden. Der Webscraper holt entsprechend
+Mit folgender Python-Datei [`scout_final.py`](webscraping/webscraper/spiders/scout_final.py "scout_final.py") kann der Webscraper gestartet werden. Der Webscraper holt entsprechend
 vordefinierte Werte von veröffentlichten Angeboten auf der Webseite von Immoscout24.
 
 Alternativ kann auch über den folgenden Befehl und den Terminal der Webscraper gestartet werden:
@@ -65,7 +65,8 @@ Hier folgt noch ein vollständiger Beschrieb...
 * `database` *Aufrufen: [hier](database) klicken.*
 * `output` *Aufrufen: [hier](output) klicken.*
 * `webscraping` *Aufrufen: [hier](webscraping) klicken.*
-
+* `Dashboard` *Aufrufen: [hier](Dashboard_Immo_Data_SQL.py "Dashboard_Immo_Data_SQL.py")  klicken.*
+* 
 
 ***
 
@@ -73,6 +74,6 @@ Hier folgt noch ein vollständiger Beschrieb...
 ## Dashboard-Anleitung
 <!-- Italics -->
 1) Nach korrekter Installation der Programme und Bibliotheken in Ihrer Python-Umgebung, können Sie mit 
-[`Dashboard_Immo_Data_SQL.py`](app.py "Dashboard_Immo_Data_SQL.py") 
+[`Dashboard_Immo_Data_SQL.py`](Dashboard_Immo_Data_SQL.py "Dashboard_Immo_Data_SQL.py") 
 das Dashboard über den Entwicklungsserver (Port: 8050) aufgerufen werden. Folgendes Dashboard (siehe im Bild untenstehend) 
 sollte nun auf Ihrem Bildschirm erscheinen.
